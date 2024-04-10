@@ -28,7 +28,7 @@ export const TodoList = () => {
 	return (
 		<section>
 			<UserForm />
-			{user && <h2>Current user: {user}</h2>}
+			{user && <h2>Current user:  {user}</h2>}
 			<ContactForm />
 			<Filter />
 			{loading && <h1>Loading...</h1>}
